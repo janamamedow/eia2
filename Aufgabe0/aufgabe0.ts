@@ -9,7 +9,7 @@ namespace aufgabe0 {
     var i: string ;
     function main(): void {
         i = prompt("Who this?"); // Anzeige der Promptbox + Text
-        var node: any = document.getElementById("innerHtml"); // Schnittstelle HTML Dokument
+        var node: HTMLElement = document.getElementById("innerHtml"); // Schnittstelle HTML Dokument
         node.innerHTML += "Hello "; // angezeigter Text
         node.innerHTML += i;
         node.innerHTML += ", schön, dass du hier bist.";
