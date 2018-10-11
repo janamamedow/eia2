@@ -6,9 +6,9 @@ Hiermit versichere ich, dass ich diesen Code selbst geschrieben habe.
 Er wurde nicht kopiert und auch nicht diktiert. */
 
 namespace aufgabe0 {
-    var i : string ="";
+    var i : string ;
     function main() {
-        var i = prompt("Who this?"); // Anzeige der Promptbox + Text
+        i = prompt("Who this?"); // Anzeige der Promptbox + Text
         var node : any = document.getElementById("innerHtml"); // Schnittstelle HTML Dokument
         node.innerHTML += "Hello"; // angezeigter Text
         node.innerHTML += i;
