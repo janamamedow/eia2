@@ -10,7 +10,7 @@ var aufgabe0;
     function main() {
         i = prompt("Who this?"); // Anzeige der Promptbox + Text
         var node = document.getElementById("innerHtml"); // Schnittstelle HTML Dokument
-        node.innerHTML += "Hello"; // angezeigter Text
+        node.innerHTML += "Hello "; // angezeigter Text
         node.innerHTML += i;
         node.innerHTML += ", schön, dass du hier bist.";
         console.log("Hola ", i, ", schön dich hier zu begrüßen!");
