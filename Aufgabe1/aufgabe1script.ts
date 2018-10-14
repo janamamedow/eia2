@@ -7,7 +7,6 @@ Er wurde nicht kopiert und auch nicht diktiert. */
 
 
 namespace Boxes {
-    function Boxes2 (): {
     let n: number = 5;
     let c: string;
     let x: number = 0;
@@ -51,5 +50,5 @@ namespace Boxes {
         s.top = _y + "px";
     }
 } 
-document.addEventListener("DOMContentLoaded", Boxes2);
+
     
