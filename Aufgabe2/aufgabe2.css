@@ -9,7 +9,7 @@
   border-color: black;
   border-style: solid;
   border-width: 1px;
-  
+  border-radius: 10px; /*Das die Kanten abgerundet sind*/
   padding: 5px;
   background-color: white;
   font-weight: bold;
@@ -17,7 +17,7 @@
  }
  
  .card > .bg {
-  
+  border-radius: 10px;
   height: 100%;
   width: 100%;
  }
@@ -28,16 +28,15 @@
   left: 0;
   height: 100%;
   width: 100%;
-  
-  
+  -webkit-clip-path: ellipse(35% 45% at 50% 50%); /*für die jeweiligen Browser*/
+  clip-path: ellipse(35% 45% at 50% 50%); 
   background-color: white;
-  
+  transform: rotate(30deg); /*um 30 Grad gedreht*/
  }
  
  .card > .red {
   background-color: red;
-  
- }
+  }
  
  .card > .blue {
   background-color: blue;
@@ -70,7 +69,7 @@
   float: left;
   top: 50%;
   left: 50%;
-  
+  transform: translate(-50%, -50%); /*mit top und left, zentriert es genau in die Mitte*/
   font-size: 50px;
   font-weight: bold;
   font-style: italic;
