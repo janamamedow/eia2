@@ -9,29 +9,29 @@
   border-color: black;
   border-style: solid;
   border-width: 1px;
-  border-radius: 10px; /*abgerundete Ecken*/
-  padding: 5px; /*Abstand vom äußeren Element ins innere*/
+  
+  padding: 5px;
   background-color: white;
   font-weight: bold;
   text-shadow: 1px 1px black;
  }
  
- .card > .bg { /*wenn */
-  border-radius: 10px;
+ .card > .bg {
+  
   height: 100%;
   width: 100%;
  }
  
- .card > .circle { /*Der Kreis in der Karte, wird gedreht*/
+ .card > .circle {
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
+  
+  
   background-color: white;
-  -webkit-clip-path: ellipse(35% 45% at 50% 50%); /*sorgt dafür, dass es in allen Browsern gezeigt wird.. (Safari, Chrome,..)*/
-  clip-path: ellipse(35% 45% at 50% 50%); /*weite, höhe, Zentrierung*/
-  transform: rotate(30deg); /*wird um 30 Grad gedreht*/
+  
  }
  
  .card > .red {
@@ -67,10 +67,10 @@
  
  .card > .center {
   position: absolute;
-  float: left; /*fängt immer von links an*/
+  float: left;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); /*verschiebung in die Mitte*/
+  
   font-size: 50px;
   font-weight: bold;
   font-style: italic;
@@ -91,6 +91,5 @@
  .card > .yellow + .circle + .top-left + .center {
   color: yellow;
  }
-
  
  
