@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Gemüsegarten</title>
+    <meta name="description" content="EIA 2 Endabgabe - Jasmin Walther">
+    <meta name="author" content="Jana Mamedow">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="bg-black">
+        <canvas></canvas>
+        <div id="settings">
+            <label>Startgeld</label>
+            <input id="money" type="number" step="1" min="1" max="1000" value="100" />
+            <label>Artischocke EK - VK</label>
+            <input id="plant0buy" type="number" step="0.01" min="0.01" max="10" value="1" />
+            <input id="plant0sell" type="number" step="0.01" min="0.01" max="10" value="2" />
+            <label>Rote Rübe EK - VK</label>
+            <input id="plant1buy" type="number" step="0.01" min="0.01" max="10" value="1.5" />
+            <input id="plant1sell" type="number" step="0.01" min="0.01" max="10" value="3" />
+            <label>Sonnenblume EK - VK</label>
+            <input id="plant2buy" type="number" step="0.01" min="0.01" max="10" value="2.5" />
+            <input id="plant2sell" type="number" step="0.01" min="0.01" max="10" value="5" />
+            <label>Kohlrabi EK - VK</label>
+            <input id="plant3buy" type="number" step="0.01" min="0.01" max="10" value="0.95" />
+            <input id="plant3sell" type="number" step="0.01" min="0.01" max="10" value="1.9" />
+            <label>Erbse EK - VK</label>
+            <input id="plant4buy" type="number" step="0.01" min="0.01" max="10" value="0.45" />
+            <input id="plant4sell" type="number" step="0.01" min="0.01" max="10" value="0.9" />
+            <input id="startButton" type="button" value="Los geht's" />
+        </div>
+    </main>
+
+    <script src="Vector2D.js"></script>
+    <script src="Helper.js"></script>
+    <script src="DynamicPrice.js"></script>
+    <script src="BaseObject.js"></script>
+    <script src="Enemy.js"></script>
+    <script src="PlantedObject.js"></script>
+    <script src="PlantingBed.js"></script>
+    <script src="TextLabel.js"></script>
+    <script src="ImageButton.js"></script>
+    <script src="Game.js"></script>
+</body>
+
+</html>
